@@ -1,4 +1,4 @@
-/*! mobi-plugin-prism v0.2.6 https://mobi-css.github.io/mobi-plugin-prism/ */
+/*! mobi-plugin-prism v0.0.0 https://mobi-css.github.io/mobi-plugin-prism/ */
 /**
  * prism.js default theme for JavaScript, CSS and HTML
  * Based on dabblet (http://dabblet.com)
@@ -21,13 +21,17 @@ pre[class*="language-"] {
   -ms-hyphens: none;
   hyphens: none; }
 
-pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,
-code[class*="language-"]::-moz-selection, code[class*="language-"] ::-moz-selection {
+pre[class*="language-"]::-moz-selection,
+pre[class*="language-"] ::-moz-selection,
+code[class*="language-"]::-moz-selection,
+code[class*="language-"] ::-moz-selection {
   text-shadow: none;
   background: #b3d4fc; }
 
-pre[class*="language-"]::selection, pre[class*="language-"] ::selection,
-code[class*="language-"]::selection, code[class*="language-"] ::selection {
+pre[class*="language-"]::selection,
+pre[class*="language-"] ::selection,
+code[class*="language-"]::selection,
+code[class*="language-"] ::selection {
   text-shadow: none;
   background: #b3d4fc; }
 
@@ -51,7 +55,7 @@ pre[class*="language-"] {
   color: #999; }
 
 .namespace {
-  opacity: .7; }
+  opacity: 0.7; }
 
 .token.property,
 .token.tag,
@@ -84,7 +88,7 @@ pre[class*="language-"] {
   color: #07a; }
 
 .token.function {
-  color: #DD4A68; }
+  color: #dd4a68; }
 
 .token.regex,
 .token.important,
