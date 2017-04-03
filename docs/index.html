@@ -1,0 +1,48 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,
+      maximum-scale=1.0, user-scalable=no"/>
+    
+    <title>Prism</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/mobi.css/dist/mobi.min.css" />
+    <link rel="stylesheet" href="./css/mobi-plugin-prism.min.css" />
+  </head>
+  <body>
+    <div class="flex-center">
+      <div class="container">
+        <h1 id="prism">Prism</h1>
+<p>The default theme for highlighter Prism</p>
+<h2 id="html">html</h2>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">></span></span>Prism<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>title</span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>https://github.com/mobi-css/mobi-plugin-prism<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>GitHub<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">></span></span>
+</code></pre>
+<h2 id="js">js</h2>
+<pre class="language-js"><code class="language-js"><span class="token keyword">const</span> Prism <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'prismjs'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment" spellcheck="true">// The code snippet you want to highlight, as a string</span>
+<span class="token keyword">var</span> code <span class="token operator">=</span> <span class="token string">"var data = 1;"</span><span class="token punctuation">;</span>
+
+<span class="token comment" spellcheck="true">// Returns a highlighted HTML string</span>
+<span class="token keyword">var</span> html <span class="token operator">=</span> Prism<span class="token punctuation">.</span><span class="token function">highlight</span><span class="token punctuation">(</span>code<span class="token punctuation">,</span> Prism<span class="token punctuation">.</span>languages<span class="token punctuation">.</span>javascript<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<h2 id="css">css</h2>
+<pre class="language-css"><code class="language-css"><span class="token selector"><span class="token class">.highlight-css</span> </span><span class="token punctuation">{</span>
+  <span class="token property">background</span><span class="token punctuation">:</span> <span class="token hexcode">#f2f2f2</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+
+      </div>
+    </div>
+  </body>
+</html>
