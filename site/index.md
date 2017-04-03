@@ -1,6 +1,6 @@
 # Prism
 
-The default theme for highlighter Prism
+The default theme for highlighter [Prism](http://prismjs.com)
 
 ## html
 
