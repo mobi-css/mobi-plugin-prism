@@ -1,6 +1,6 @@
 {
   "name": "mobi-plugin-prism",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "The default theme for highlighter Prism",
   "main": "index.scss",
   "scripts": {
