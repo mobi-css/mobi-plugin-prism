@@ -26,7 +26,7 @@
   "bugs": {
     "url": "https://github.com/mobi-css/mobi-plugin-prism/issues"
   },
-  "homepage": "https://mobi-css.github.io/mobi-plugin-prism/",
+  "homepage": "https://github.com/mobi-css/mobi-plugin-prism",
   "devDependencies": {
     "autoprefixer": "^6.4.0",
     "debounce": "^1.0.0",
@@ -48,6 +48,6 @@
     "stylelint-config-standard": "^16.0.0"
   },
   "dependencies": {
-    "mobi-theme-base": "^0.2.6"
+    "mobi-theme-base": "^1.0.0"
   }
 }
